@@ -60,8 +60,7 @@ img{
 .header-container{
     display: flex;
     text-align: center;
-    gap: 332px;
-    border-bottom: 1px solid #e7e9fc;
+    
 }
 
 .header-menu{
@@ -72,14 +71,11 @@ img{
 .header-navigation{
     text-align: center;
     display: flex;
-    flex-grow: 1;
     justify-content: space-between;
     align-items: center;
 }
 
 .header{
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -114,6 +110,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 padding-top: 24px;
 padding-bottom: 24px;
+display: block;
 }
 
 .header-socials-link{
@@ -131,6 +128,7 @@ letter-spacing: 0.02em;
 
 .adress{
     font-style: normal;
+    margin-left: auto;
 }
 
 .header-socials-link:is(:hover,:focus){
@@ -178,8 +176,6 @@ padding: 16px 32px;
 }
 .effective-sol-button-container{
     text-align: center;
-    padding-top: 188px;
-    padding-bottom: 292px;
 }
 /**------------ ADVANTAGES -------------- */
 .features-menu{
@@ -193,7 +189,7 @@ padding: 16px 32px;
 }
 
 .advantages-item{
-    width:calc((100%-72px)/4);
+    width:calc((100% - 72px)/4);
 }
 
 .advantages-subtitle {
@@ -260,9 +256,6 @@ margin-bottom: 72px;
     gap: 24px;
 }
 
-.team-img{
-    margin-bottom: 32px;
-}
 
 .team-subtitle{
 color: var(--primary-black-color);
@@ -296,7 +289,6 @@ letter-spacing: 0.02em;
 .buttons-menu{
     display: flex;
     gap: 24px;
-    padding-top: 96px;
     justify-content: center;
     margin-bottom: 72px;
 }
@@ -337,7 +329,6 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
-padding-top: 32px;
 margin-bottom: 8px;
 }
 .advantages-item-text {
@@ -356,9 +347,7 @@ letter-spacing: 0.02em;
     padding: 32px 16px;
     border-top: none;
 }
-.center-container{
-    padding-bottom: 120px;
-}
+
 /*!------------------------PORTFOLIO------------------------**/
 /*------------ FOOTER-------------- */
 .footer{
@@ -375,7 +364,6 @@ letter-spacing: 0.02em;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-left: 156px;
     margin-bottom: 16px;
     display: inline-block;
 }
@@ -389,5 +377,4 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-left: 156px;
 }
